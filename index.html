@@ -1,72 +1,542 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="project.css">
   <link rel="stylesheet" href="project.js">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-    
-    <title>Book Now</title>
+  <title>consultancy</title>
 </head>
-<body class="eruku">
-    <div class="container-fluid pt-5 ">
-    <div class="container yo pb-5">
-        <p class="h1 text-center pt-3">
-            <a href="project.html">
-            <img src="./dp 1.png" alt="" class="eko">
-            </a>
-            Book Now</p>
-    <form class="row g-3 pt-3">
-        <div class="col-md-6">
-          <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4">
-        </div>
-        <div class="col-md-6">
-          <label for="inputPassword4" class="form-label">Password</label>
-          <input type="password" class="form-control" id="inputPassword4">
-        </div>
-        <div class="col-md-6">
-          <label for="inputAddress" class="form-label">Address</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-        </div>
-        <div class="col-md-6">
-          <label for="inputAddress2" class="form-label">Address 2</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-        </div>
-        <div class="col-md-6">
-          <label for="inputCity" class="form-label">City</label>
-          <input type="text" class="form-control" id="inputCity">
-        </div>
-        <div class="col-md-6">
-          <label for="inputState" class="form-label">State</label>
-          <select id="inputState" class="form-select">
-            <option selected>Choose...</option>
-            <option>...</option>
-          </select>
-        </div>
-        <div class="col-md-6">
-          <label for="inputZip" class="form-label">Zip</label>
-          <input type="text" class="form-control" id="inputZip">
-        </div>
-        <!-- <div class="col-md-6">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-              Check me out
-            </label>
-          </div> -->
-          <div class="text-center">
-            <button type="submit" class="btn btn-primary p-3 mt-2 indexbtn">Book Now</button>
+<body>
+  <section>
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container">
+      <!-- <div class="container"> -->
+      <a class="navbar-brand" href="#"><img src="./KolCho Logo.png" id="Home" class="karo"></a>
+      <!-- </div> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNav">
+        
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Services">Our Services</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link " href="#">Disabled</a>
+          </li> -->
+          <a href="Project.html">
+          <button class="btn p-2 ms-3">Book Now</button>
+          </a>
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+  <!-- section_2 -->
+  <div class="d-lg-flex container pb-5 mb-lg-5">
+  <div class="container pt-5 mt-5">
+    <p class=" h1 fw-bold "> Unlocking data insights to drive business success</p>
+    <p class="mt-4 h5">Data Driven, Insight Led</p>
+    <a href="Project.html">
+    <button class="btn mt-3 p-3 ">Get Started</button>
+    </a>
+  </div>
+  <div class="container pt-5 pb-5 mb-lg-5">
+    <img src="./qst 1.png" alt="" class="img-fluid kolcho ms-lg-5">
+  </div>
+  </div>
+  </section>
+  <!-- -------------------------- carousel -->
+
+  <!-- <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./qst 1.png" class="d-block w-50 img-fluid karo" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./qst 1.png" class="d-block w-50 karo" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./qst 1.png" class="d-block w-50 karo" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div> -->
+
+  <!-- <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="./qst 1.png" class="d-block karose" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./KolCho Logo.png" class="d-block karose" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./dp 1.png" class="d-block karose" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div> -->
+
+
+  <!-- section_3 -->
+  <!-- <div class="container-fluid hello">
+  <div class="container pt-5">
+  <p class="h1 text-center fw-bold pb-5 pt-2">Maximize Your Sales Growth  and Revenue <br>Generation with Our Core Expertise and Added- <br>Value Services</p>
+  <img src="./Project Images/moneyPlant.webp" alt="" class="img-fluid mt-3 ">
+</div> -->
+<!-- -------------------------- -->
+<div class="container pt-5 mt-5 d-lg-flex">
+  <div class="container pt-3  ">
+    <p class="h1 pb-4 " id="About">About Us</p>
+    <p class=" lh-lg">We are a professional Data Analytics firm that leverages data insights to drive business success. At KolCho Analytics, we specialize in utilizing the power of data to enhance organizational performance. With a focus on advanced analytics and strategic intelligence, we partner with businesses to make informed decisions, streamline operations, and gain a competitive edge in their industries. Our commitment to professionalism and excellence ensures that we deliver effective solutions that maximize the potential of our clients' data, driving sustained success.</p>
+  </div>
+  <div class="container pb-5">
+    <img src="./qst 2.png" alt="" class="img-fluid gst2">
+  </div>
+</div>
+<!-- --------------------------------- -->
+<div class="container d-lg-flex mt-5 column-gap-5 pb-5 mb-lg-5">
+  <div class="container pb-lg-5">
+    <img src="./qst 2_034653.png" alt="" class="img-fluid gst2 ">
+  </div>
+  <div class="container pt-5 ">
+    <p class="h1 pb-3">Data-Driven, Inside-Led</p>
+    <p class="lh-lg">At KolCho Analytics, we epitomize a 'Data-driven, Insight-led' philosophy. Our methodology revolves around leveraging data to inform decision-making and shape strategic direction. With meticulous analysis and insightful interpretation, we empower our clients to unlock unprecedented potential and drive transformative outcomes.</p>
+  </div>
+</div>
+</div>
+<!-- -------------------------- -->
+<!-- <div class="container-fluid mt-5 pt-5 long text-center">
+  <p class="h1 fw-bold text-center pt-4"> Why Choose Us</p>
+  <div class="container text-center ">
+    <div class="row row-cols-2 gap-3">
+      <div class="col">
+        <p class="h3 pb-3">Exceptional Sales Mastery</p>
+        <p>Elevate your business with our unparalleled expertise in sales and business development.</p>
+      </div>
+      <div class="col">
+        <p>Revenue focused strategies</p>
+          <p>The purpose of all business is to maximize profit, this is why our services focus on strategies that will identify all revenue generating lines for your business.</p>
+      
+      </div>
+      
+      
+      <div class="col">
+        <p>
+          Precision in Customization
+
+        </p>
+        <p>Tailored strategies created specifically for your business growth and profitability.</p>
+      </div>
+      <div class="col">
+        <p>Industry-Specific Expertise</p>
+          <p>We understand that each sector comes with its own set of challenges and opportunities. We navigate these intricacies with professional accuracy.</p>
+      </div>
+      </div>
+    </div>
+  </div> -->
+  
+  <!-- -------------------------- -->
+  <div class="container-fluid eruku mb-5 pb-5 ">
+  <div class="container eruku pb-5">
+    <p class="h1  mt-5 pt-4 text-center fw-light yoyo" id="Services">Our Services</p>
+
+    <div class="container eruku text-center mt-5   ">
+      <div class="row row-cols-lg-4 col-gap-1  eruku">
+        <div class="col eruku">
+          <div class="card col-6" style="width: 15rem; height: 35rem; ">
+          <img src="./SLIDE 1_034627.png" alt="" class="card-img-top img-fluid">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Operational Consulting
+            </h5>
+            <!-- <ul class=""> -->
+              <p class="card-text">Process Improvement</p>
+              <p class="card-text">Root Cause Analysis</p>
+              <p class="card-text">Change Management</p>
+              <p class="card-text">Technological Optimization</p>
+              <p class="card-text">Lean Six Sigma Implementation</p>
+              
+              <!-- <li>Technological Optimization</li> -->
+              <!-- <li>Lean Six Sigma Implementation</li> -->
+            <!-- </ul> -->
           </div>
         </div>
-        <!-- <div class="col-12">
-          <button type="submit" class="btn btn-primary">Sign in</button>
-        </div> -->
-      </form> 
+        </div>
+
+        <div class="col eruku">
+          <div class="card col-6" style="width: 15rem; height: 35rem;">
+            <!-- <p class="h1 circle mt-4 ms-4">2</p> -->
+            <img src="./SLIDE 2_034630.png" alt="" class="card-img-top img-fluid">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Start Up Consulting
+              </h5>
+              <p class="card-text">Business Plan </p>
+              <p class="card-text">Market Entry Strategy</p>
+              <p class="card-text">Financial Modeling</p>
+              <p class="card-text">Feasibility Studies</p>
+              <p class="card-text">Branding & Optimization</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col eruku">
+          <div class="card col-6" style="width: 15rem; height: 35rem">
+            <!-- <p class="h1 circle mt-4 ms-4">3</p> -->
+            <img src="./SLIDE 3_034642.png" alt="" class="card-img-top img-fluid">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Creative Consulting
+              </h5>
+              <p class="card-text">Brand Strategy</p>
+              <p class="card-text">Marketing Campaigns</p>
+              <p class="card-text">Product Innovation</p>
+              <p class="card-text">User Experience</p>
+              <p class="card-text">Content Strategy & Creation</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col eruku">
+          <div class="card col-6" style="width: 15rem;">
+            <!-- <p class="h1 circle mt-4 ms-4">4</p> -->
+            <img src="./SLIDE 4_034652.png" alt="" class="card-img-top img-fluid">
+            <div class="card-body ">
+              <h5 class="card-title fw-bold">Recruitment Analytics & Training
+              </h5>
+              <p class="card-text">Talent sourcing</p>
+              <p class="card-text">Traning & Talent Optimization</p>
+              <p class="card-text">Performance Management</p>
+              <p class="card-text">Structure Audit</p>
+              <p class="card-text">Work-Life Balance Packages</p>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+  </div>
+  </div>
+<!-- -------------------------- -->
+
+<div class="container-fluid mt-5 pt-5 ">
+  <p class="h1 fw-light text-center">Why Choose Us</p>
+  <!-- <p class="text-center mt-3">Read what our esteemed clients are saying about us</p> -->
+</div>
+<div class="container text-center mt-5 mb-5  ">
+  <div class="row row-cols-lg-4 ">
+    <div class="col-lg">
+      <div class="card col-lg-6 " style="width: 15rem; height:40rem;">
+        <img src="./qst 1.png" class="card-img-top img-fluid" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Data-Driven Approach
+          </h5>
+          <p class="card-text">  KolCho utilizes advanced data analytics techniques to drive insights and recommendations for operational improvement. By leveraging data effectively, KolCho can provide valuable insights into operational performance and identify opportunities for optimization.
+          </p>
+          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card col-lg-6" style="width: 15rem; ">
+      <img src="./qst 2.png" class="card-img-top img-fluid" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Customized Solutions
+        </h5>
+        <p class="card-text"> KolCho understands that every organization is unique, and therefore, offers customized solutions tailored to meet the specific needs and challenges of each client. Whether it's process improvement, supply chain optimization, or quality management, KolCho develops tailored strategies to address clients' specific operational requirements.
+        </p>
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
       </div>
+      </div></div>
+    <div class="col ">
+      <div class="card col-lg-6 " style="width: 15rem; height: 40rem">
+        <img src="./dp 1.png" class="card-img-top img-fluid" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Experienced Consultants
+          </h5>
+         <p class="card-text"> KolCho's team comprises experienced consultants with expertise in operational management and data analytics. With a deep understanding of industry best practices and proven methodologies, KolCho consultants are equipped to deliver high-quality solutions that drive measurable results.
+        </p>
+          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card col-lg-6" style="width: 15rem; ">
+        <img src="./SLIDE 1_034627.png" class="card-img-top img-fluid" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fw-bold"> Holistic Approach</h5>
+          <p class="card-text">
+            KolCho takes a holistic approach to operational management consulting, considering the interconnectedness of various operational functions and processes within an organization. By taking a comprehensive view of operations, KolCho ensures that its solutions are aligned with clients' overall business objectives and strategies.
+
+          </p>
+          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- -------------------------- -->
+<div class="container d-lg-flex">
+  <div>
+    <a href="https://awabahng.com/">
+    <img src="./Awabah.jpeg" alt="">
+    </a>
+    <!-- <img src="../Downloads/Project Images/Awabah.jpeg" alt=""> -->
+  </div>
+  <div class="">
+    <a href="https://www.marsleisure.com/">
+    <img src="mars.jpeg" alt="">
+    </a>
+  </div>
+  <div>
+    <a href="https://scout4job.com/">
+    <img src="./scout.png" alt="">
+    </a>
+  </div>
+  <div class="mt-5">
+    <a href="https://rekrutconsulting.com/">
+    <img src="./rekrut.png" alt="">
+    </a>
+  </div>
+  <div>
+    <a href="https://360wlb.com/">
+    <img src="./download.jpeg" alt="">
+    </a>
+  </div>
+</div>
+
+            
+<!-- -------------------------- -->
+<!-- Footer -->
+
+<div class="container-fluid eruku footer">
+<footer class=" text-center">
+  <!-- Grid container -->
+  <div class="container-fluid p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="bi bi-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="bi bi-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="bi bi-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="bi bi-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="bi bi-linkedin"></i
+      ></a>
+
+      <!-- Github -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+              <input type="email" id="form5Example24" class="form-control" />
+              <label class="form-label" for="form5Example24">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button data-mdb-ripple-init type="submit" class="btn btn-outline mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+           <!-- <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam eum
+        harum corrupti dicta, aliquam sequi voluptate quas.
+      </p> -->
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class=" text-center">
+      <!--Grid row-->
+      <div class="row text-center">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Company</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a class="text-body" href="#!">About Us</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Root Cause Analysis</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Change Management</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Brand Strategy</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Our Services</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a class="text-body" href="#!">Careers</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Recruitment</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Structure Audit</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Talent sourcing
+
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        
+        
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Start Up Consulting</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a class="text-body" href="#!">Business Plan</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!"> Market Entry Strategy
+
+              </a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Financial Modeling</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Feasibility Studies</a>
+            </li>
+          </ul>
+        </div>
+
+        <!--Grid column-->
+         <div class="col-lg-3 col-md-6 mb-4 mb-md-0 footer">
+          <h5 class="text-uppercase">Contact
+          </h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a class="text-body" href="#!">(+234)7026782510
+
+              </a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Suite 2&3, Mayfair Gardens Complex, Awoyaya, Lagos-Epe Exp way.</a>
+            </li>
+            
+             
+          </ul> 
+        </div>
+        <!--Grid column-->
+      <!-- </div> -->
+      <!--Grid row-->
+    <!-- </section> -->
+    <!-- Section: Links -->
+  <!-- </div> -->
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center mt-5 container-fluid" >
+    Olusanmi &copy;
+    
+  </div>
+  <!-- Copyright -->
+</footer>
+</div>
+<!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
