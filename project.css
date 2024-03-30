@@ -1,0 +1,81 @@
+button{
+    background-color: #469248ff!important;
+    color: white !important;
+}
+span{
+    color: yellow;
+}
+section{
+    background-color: #26184Bff !important;
+    color: #FFFFFFff !important;
+}
+.long{
+    background-color: green !important;
+    color: white !important;
+}
+.col{
+    background-color:#ffff !important;
+    color: black !important;
+}
+.circle{
+border-radius: 50%;
+background-color: #D2906Eff  !important;
+color: #ffff !important;
+height: 1.5cm;
+width: 2cm;
+}
+.eruku{
+    background-color: #26184Bff!important;
+}
+.card{
+    /* background-color: #26184Bff; */
+    /* color: #ffff !important ; */
+}
+.footer{
+    /* color: #ffff !important; */
+}
+a{
+    text-decoration: none;
+    color: #ffff !important;
+}
+.text-body{
+    color: #ffff !important;
+}
+.kolcho{
+    width: 10cm;
+}
+body{
+    /* color: #ffff !important; */
+
+}
+.karo{
+    width: 1.5cm;
+    
+}
+.karose{
+    width: 6cm
+}
+.hello{
+    /* background-color: #3B1A5Eff !important; */
+    background-color: #D2906Eff !important;
+    color: #FFFFFFff !important;
+}
+.gst2{
+    height: 11cm;
+}
+.yoyo{
+ color: #ffffff !important;
+}
+.yo{
+    background-color: #fff !important;
+    /* color: #ffffff !important; */
+    border-radius: 10px;
+}
+.indexbtn{
+    width: 6cm;
+    
+    
+}
+.eko{
+    width: 3cm;
+}
