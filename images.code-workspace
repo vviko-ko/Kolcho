@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"name": "images",
+			"path": "../images"
+		},
+		{
+			"name": "Bro Olu's Project",
+			"path": "../Bro Olu's Project"
+		},
+		{
+			"name": "Project Images",
+			"path": "../Downloads/Project Images"
+		},
+		{
+			"path": "../Kolcho"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Kolcho"
+	}
+}
